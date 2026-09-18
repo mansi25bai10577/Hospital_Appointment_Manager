@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.hospital.service.SchedulingServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.456 s -- in com.hospital.service.SchedulingServiceTest

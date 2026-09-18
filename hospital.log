@@ -1,0 +1,110 @@
+[2026-09-18 18:15:22] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:15:22] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:15:22] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:15:22] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:15:22] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:15:22] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:15:22] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:17:54] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:17:54] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:17:54] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:17:54] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:17:54] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:17:54] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:17:54] [SEVERE ] Failed to initialize database schema 
+[2026-09-18 18:20:25] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:20:25] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Billing Specialist', Specialization='General Practice', Fee=$200.00] 
+[2026-09-18 18:20:25] [INFO   ] Registered new doctor: Dr. Billing Specialist [General Practice] 
+[2026-09-18 18:20:25] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:20:25] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:20:25] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:20:25] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:20:25] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:20:25] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:20:25] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:20:25] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:20:25] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:20:25] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:20:25] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:20:25] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:20:25] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:20:25] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:20:25] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:20:25] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:20:25] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:20:25] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:22:33] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:22:33] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Billing Specialist', Specialization='General Practice', Fee=$200.00] 
+[2026-09-18 18:22:33] [INFO   ] Registered new doctor: Dr. Billing Specialist [General Practice] 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=1, Name='Billing Patient', Age=40, Gender='Female', Phone='555-8888'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Billing Patient (ID: 1) 
+[2026-09-18 18:22:33] [INFO   ] Appointment saved successfully: Appointment[ID=1, Patient=1 (ID:1), Doctor=1 (ID:1), Time=2026-11-01 14:00, Status=SCHEDULED, Priority=NORMAL] 
+[2026-09-18 18:22:33] [INFO   ] Successfully booked NORMAL appointment ID 1 for Patient Billing Patient with Dr. Dr. Billing Specialist at 2026-11-01 14:00 
+[2026-09-18 18:22:33] [INFO   ] Invoice saved successfully: Invoice[ID=1, AppointmentID=1, Total=$275.50, Status=PAID] 
+[2026-09-18 18:22:33] [INFO   ] Generated Invoice INV-00001 for Appointment APT-00001. Total: $275.50 
+[2026-09-18 18:22:33] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:22:33] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:22:33] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=1, Name='Patient One', Age=30, Gender='Male', Phone='555-0002'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient One (ID: 1) 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=2, Name='Patient Two', Age=45, Gender='Female', Phone='555-0003'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient Two (ID: 2) 
+[2026-09-18 18:22:33] [INFO   ] Appointment saved successfully: Appointment[ID=1, Patient=1 (ID:1), Doctor=1 (ID:1), Time=2026-10-02 09:00, Status=SCHEDULED, Priority=NORMAL] 
+[2026-09-18 18:22:33] [INFO   ] Successfully booked NORMAL appointment ID 1 for Patient Patient One with Dr. Dr. Test Smith at 2026-10-02 09:00 
+[2026-09-18 18:22:33] [INFO   ] Appointment saved successfully: Appointment[ID=2, Patient=2 (ID:2), Doctor=1 (ID:1), Time=2026-10-02 10:00, Status=SCHEDULED, Priority=EMERGENCY] 
+[2026-09-18 18:22:33] [INFO   ] Successfully booked EMERGENCY appointment ID 2 for Patient Patient Two with Dr. Dr. Test Smith at 2026-10-02 10:00 
+[2026-09-18 18:22:33] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:22:33] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:22:33] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=1, Name='Patient One', Age=30, Gender='Male', Phone='555-0002'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient One (ID: 1) 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=2, Name='Patient Two', Age=45, Gender='Female', Phone='555-0003'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient Two (ID: 2) 
+[2026-09-18 18:22:33] [INFO   ] Appointment saved successfully: Appointment[ID=1, Patient=1 (ID:1), Doctor=1 (ID:1), Time=2026-10-01 09:00, Status=SCHEDULED, Priority=NORMAL] 
+[2026-09-18 18:22:33] [INFO   ] Successfully booked NORMAL appointment ID 1 for Patient Patient One with Dr. Dr. Test Smith at 2026-10-01 09:00 
+[2026-09-18 18:22:33] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:22:33] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:22:33] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=1, Name='Patient One', Age=30, Gender='Male', Phone='555-0002'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient One (ID: 1) 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=2, Name='Patient Two', Age=45, Gender='Female', Phone='555-0003'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient Two (ID: 2) 
+[2026-09-18 18:22:33] [INFO   ] Appointment saved successfully: Appointment[ID=1, Patient=1 (ID:1), Doctor=1 (ID:1), Time=2026-10-01 10:15, Status=SCHEDULED, Priority=NORMAL] 
+[2026-09-18 18:22:33] [INFO   ] Successfully booked NORMAL appointment ID 1 for Patient Patient One with Dr. Dr. Test Smith at 2026-10-01 10:15 
+[2026-09-18 18:22:33] [WARNING] Booking rejected due to conflict: Slot Conflict: Requested time (10:00 - 11:00) overlaps with an existing NORMAL appointment (ID: 1) for Dr. Dr. Test Smith. 
+[2026-09-18 18:22:33] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:22:33] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:22:33] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=1, Name='Patient One', Age=30, Gender='Male', Phone='555-0002'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient One (ID: 1) 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=2, Name='Patient Two', Age=45, Gender='Female', Phone='555-0003'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient Two (ID: 2) 
+[2026-09-18 18:22:33] [INFO   ] Appointment saved successfully: Appointment[ID=1, Patient=1 (ID:1), Doctor=1 (ID:1), Time=2026-10-01 10:00, Status=SCHEDULED, Priority=NORMAL] 
+[2026-09-18 18:22:33] [INFO   ] Successfully booked NORMAL appointment ID 1 for Patient Patient One with Dr. Dr. Test Smith at 2026-10-01 10:00 
+[2026-09-18 18:22:33] [WARNING] Booking rejected due to conflict: Slot Conflict: Requested time (09:45 - 10:15) overlaps with an existing NORMAL appointment (ID: 1) for Dr. Dr. Test Smith. 
+[2026-09-18 18:22:33] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:22:33] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:22:33] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=1, Name='Patient One', Age=30, Gender='Male', Phone='555-0002'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient One (ID: 1) 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=2, Name='Patient Two', Age=45, Gender='Female', Phone='555-0003'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient Two (ID: 2) 
+[2026-09-18 18:22:33] [INFO   ] Appointment saved successfully: Appointment[ID=1, Patient=1 (ID:1), Doctor=1 (ID:1), Time=2026-10-01 09:00, Status=SCHEDULED, Priority=NORMAL] 
+[2026-09-18 18:22:33] [INFO   ] Successfully booked NORMAL appointment ID 1 for Patient Patient One with Dr. Dr. Test Smith at 2026-10-01 09:00 
+[2026-09-18 18:22:33] [WARNING] Booking rejected due to conflict: Slot Conflict: Requested time (09:00 - 09:30) overlaps with an existing NORMAL appointment (ID: 1) for Dr. Dr. Test Smith. 
+[2026-09-18 18:22:33] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:22:33] [INFO   ] Doctor saved successfully: Doctor[ID=1, Name='Dr. Test Smith', Specialization='Cardiology', Fee=$150.00] 
+[2026-09-18 18:22:33] [INFO   ] Registered new doctor: Dr. Test Smith [Cardiology] 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=1, Name='Patient One', Age=30, Gender='Male', Phone='555-0002'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient One (ID: 1) 
+[2026-09-18 18:22:33] [INFO   ] Patient saved successfully: Patient[ID=2, Name='Patient Two', Age=45, Gender='Female', Phone='555-0003'] 
+[2026-09-18 18:22:33] [INFO   ] Registered new patient: Patient Two (ID: 2) 
+[2026-09-18 18:22:33] [INFO   ] Appointment saved successfully: Appointment[ID=1, Patient=1 (ID:1), Doctor=1 (ID:1), Time=2026-10-01 10:00, Status=SCHEDULED, Priority=NORMAL] 
+[2026-09-18 18:22:33] [INFO   ] Successfully booked NORMAL appointment ID 1 for Patient Patient One with Dr. Dr. Test Smith at 2026-10-01 10:00 
+[2026-09-18 18:22:33] [WARNING] Booking rejected due to conflict: Slot Conflict: Requested time (10:15 - 10:45) overlaps with an existing NORMAL appointment (ID: 1) for Dr. Dr. Test Smith. 
+[2026-09-18 18:28:50] [INFO   ] Starting Hospital & Clinic Appointment Management System... 
+[2026-09-18 18:28:50] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:30:19] [INFO   ] Starting Hospital & Clinic Appointment Management System... 
+[2026-09-18 18:30:20] [INFO   ] Database schema initialized successfully from schema.sql 
+[2026-09-18 18:30:58] [INFO   ] Starting Hospital & Clinic Appointment Management System... 
+[2026-09-18 18:30:58] [INFO   ] Database schema initialized successfully from schema.sql 
